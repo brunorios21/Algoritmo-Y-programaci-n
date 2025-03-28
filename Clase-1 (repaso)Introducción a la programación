@@ -1,0 +1,142 @@
+# Variables y constantes
+# Ejercicio 1: Almacenar y mostrar una cadena
+# Escribir un programa que almacene la cadena "¡Hola Mundo!" en una variable y luego muestre por pantalla el contenido de la variable.
+mensaje = "¡Hola Mundo!"
+print(mensaje)  # Mostramos el contenido de la variable
+
+# Ejercicio 2: Variables inválidas (descomentar para ver errores)
+# Escribir 4 programas que contengan una variable inválida cada uno (distintas). Trate de ejecutar y analice el error.
+# 1nombre = "Juan"  # No puede comenzar con un número
+# mi-variable = 10  # No puede contener guiones medios
+# def = "reservado"  # No puede ser una palabra reservada
+# @valor = 25  # No puede contener caracteres especiales
+
+# Ejercicio 3: Variables con diferentes tipos de datos
+# Escribir un programa que almacene en distintas variables, dos valores enteros, dos reales, dos string y muestre el tipo de dato con la instrucción type() de todas las variables.
+entero1, entero2 = 10, 20
+real1, real2 = 10.5, 20.5
+cadena1, cadena2 = "Hola", "Mundo"
+print(type(entero1), type(real1), type(cadena1))
+
+# Operadores aritméticos
+# Ejercicio 4: Calcular el 15% de 5400
+# Escribir un programa que calcule y muestre por pantalla el 15% de 5400.
+porcentaje = 5400 * 0.15
+print("El 15% de 5400 es:", porcentaje)
+
+# Ejercicio 5: Calcular el área de un triángulo
+# Escribir un programa que calcule el área de un triángulo, sabiendo que:
+# La base (b) mide 20.5
+# La altura (h) es igual a la base al cuadrado
+b = 20.5
+h = b ** 2  # La altura es el cuadrado de la base
+area = (b * h) / 2
+print("El área del triángulo es:", area)
+
+# Entradas input()
+# Ejercicio 6: Calcular el pago de un trabajador
+# Escribir un programa que pregunte al usuario por el número de horas trabajadas y el costo por hora.
+horas = float(input("Ingrese horas trabajadas: "))
+costo_hora = float(input("Ingrese costo por hora: "))
+pago = horas * costo_hora
+print("El pago total es:", pago)
+
+# Ejercicio 7: Peso total de un pedido de juguetes
+# Escribir un programa que lea el número de payasos y muñecas vendidos y calcule el peso total del paquete.
+peso_payaso = 112
+peso_muneca = 75
+cant_payasos = int(input("Ingrese cantidad de payasos: "))
+cant_munecas = int(input("Ingrese cantidad de munecas: "))
+peso_total = (cant_payasos * peso_payaso) + (cant_munecas * peso_muneca)
+print("El peso total del paquete es:", peso_total, "g")
+
+# Cadenas
+# Ejercicio 9: Contar caracteres de un nombre completo
+# Escribir un programa que muestre cuántos caracteres tiene su nombre completo.
+nombre = input("Ingrese su nombre completo: ")
+print("Su nombre tiene", len(nombre), "caracteres")
+
+# Estructuras de decisión
+# Ejercicio 10: Separar día, mes y año de una fecha ingresada
+fecha = input("Ingrese su fecha de nacimiento (dd/mm/aaaa): ")
+dia, mes, anio = fecha.split('/')
+print("Día:", dia, "Mes:", mes, "Año:", anio)
+
+# Ejercicio 11: Transformar oración
+# Escribir un programa que permita el ingreso por teclado de una oración de cinco palabras.
+oracion = input("Ingrese una oración de cinco palabras: ")
+print(oracion.lower())
+print(oracion.upper())
+print(oracion.capitalize())
+
+# Ejercicio 12: Evaluar si un número es menor a 50
+num = int(input("Ingrese un número: "))
+if num < 50:
+    print("La mitad del número es:", num / 2)
+
+# Ejercicio 13: Suma de tres números y operaciones según resultado
+num1 = int(input("Ingrese primer número: "))
+num2 = int(input("Ingrese segundo número: "))
+num3 = int(input("Ingrese tercer número: "))
+suma = num1 + num2 + num3
+if suma > 50:
+    resultado = suma / 2
+else:
+    resultado = suma ** 3
+    if resultado > 5000:
+        print("Este es un gran número")
+print("Resultado:", resultado)
+
+# Estructuras iterativas
+# Ejercicio 15: Mostrar números de 0 a 50 de 5 en 5
+for i in range(0, 51, 5):
+    print(i)
+
+# Ejercicio 16: Cuenta regresiva desde un número ingresado
+n = int(input("Ingrese un número positivo: "))
+print(",".join(map(str, range(n, -1, -1))))
+
+# Ejercicio 17: Mostrar números con mensajes y opción de salir
+for i in range(31):
+    if i in [3, 8, 17, 26]:
+        print(f"Saltando instrucciones con continue, llegué al número {i}")
+        continue
+    print(i)
+    if i > 25:
+        opcion = input("Presione 'S' para salir, otra tecla para continuar: ")
+        if opcion.upper() == 'S':
+            print(f"Saliendo en el número {i}")
+            break
+
+# Estructura iterativa FOR
+# Ejercicio 18: Mostrar palabra separada por guiones
+palabra = input("Ingrese una palabra: ")
+print("-".join(palabra))
+
+# Ejercicio 19: Múltiplos de 5
+n = int(input("Ingrese un número entero positivo: "))
+for i in range(n, n*30 + 1):
+    if i % 5 == 0:
+        print(i)
+
+# Ejercicio 20: Convertir palabra a jeringoso
+palabra = input("Ingrese una palabra: ").lower()
+convertida = "".join([letra + "p" + letra if letra in "aeiou" else letra for letra in palabra])
+print(convertida)
+
+# Ejercicio 21: Enumerar nombres de una lista
+nombres = ['Jose', 'Pedro', 'Armando', 'Analía', 'Florencia']
+for i, nombre in enumerate(nombres, start=1):
+    print(i, nombre)
+
+# Ejercicio 22: Tablas de multiplicar del 1 al 9
+for i in range(1, 10):
+    for j in range(1, 10):
+        print(f"{i}x{j}={i*j}", end=" \t")
+    print()
+
+# Ejercicio 23: Tabla pitagórica del 1 al 10
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i * j, end=" \t")
+    print()
