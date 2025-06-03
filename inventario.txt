@@ -1,0 +1,4 @@
+L001,El principito,Antoine de Saint-Exupéry,3200
+L002,Cien años de soledad,Gabriel García Márquez,5900
+L003,Fahrenheit 451,Ray Bradbury,4100
+L004,Don Quijote,Miguel de Cervantes,7500

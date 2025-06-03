@@ -1,0 +1,5 @@
+El Principito|3500
+Python para Todos|7800
+Cien Años de Soledad|6500
+Aprenda C en 21 Días|4200
+Harry Potter y la Piedra Filosofal|5000
