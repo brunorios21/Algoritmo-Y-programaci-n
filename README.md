@@ -93,7 +93,7 @@ Podés agregar capturas o GIFs del programa funcionando en consola para mostrar 
 
 📘 Documentación oficial de Python
 
-🎓 Material UNPAZ – Algoritmos y Programación 
+🎓 Material UNPAZ – Algoritmos y Programación
 
 📄 Licencia
 Este proyecto está licenciado bajo los términos de la licencia MIT.
@@ -104,3 +104,6 @@ Bruno Ríos
 Estudiante de Gestión de las Tecnologías de la Información
 Universidad Nacional de José C. Paz – UNPAZ
 GitHub: @brunorios21
+
+---
+
