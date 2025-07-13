@@ -63,6 +63,7 @@ Python 3.10 o superior
 Documentación oficial de Python
 
 Material UNPAZ – Algoritmos y Programación
+Profesor: Rómulo Arceri
 
 Licencia
 Este proyecto está licenciado bajo los términos de la licencia MIT.
