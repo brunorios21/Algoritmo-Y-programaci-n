@@ -1,8 +1,4 @@
 
----
-
-### ✅ Versión final limpia y ordenada del `README.md`
-
 ```markdown
 <!-- Encabezado centrado con badges visuales -->
 
