@@ -30,6 +30,7 @@ Es útil tanto para estudiantes que cursan la materia como para quienes buscan p
 ---
 
 ## 🗂️ Estructura del repositorio
+## 🗂️ Estructura del repositorio
 
 ```plaintext
 📁 algoritmos_y_programacion/
@@ -105,5 +106,8 @@ Estudiante de Gestión de las Tecnologías de la Información
 Universidad Nacional de José C. Paz – UNPAZ
 GitHub: @brunorios21
 
----
+yaml
+Copiar
+Editar
 
+---
