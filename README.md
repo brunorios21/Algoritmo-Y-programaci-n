@@ -1,5 +1,3 @@
-
-```markdown
 <!-- Encabezado centrado con badges visuales -->
 
 <p align="center">
@@ -32,9 +30,8 @@ Es útil tanto para estudiantes que cursan la materia como para quienes buscan p
 
 ## 🗂️ Estructura del repositorio
 
-```
-
-algoritmos\_y\_programacion/
+```plaintext
+algoritmos_y_programacion/
 │
 ├── Clase-1 (repaso)Introducción.py
 ├── Ejercicios generales/
@@ -48,7 +45,7 @@ algoritmos\_y\_programacion/
 │   ├── PROTOTIPO2.py
 ├── Sistemas simples/
 │   ├── sistemaRestaurante.py
-│   ├── Gestión\_de\_pedidos\_cafetería.py
+│   ├── Gestión_de_pedidos_cafetería.py
 │   ├── Películas.py
 ├── Estructuras/
 │   ├── pilas.py
@@ -60,72 +57,50 @@ algoritmos\_y\_programacion/
 │   ├── ordenados.txt
 │   ├── películas.txt
 └── README.md
+⚙️ Requisitos
+Python 3.10 o superior
 
-````
+(Opcional) Visual Studio Code, Jupyter Notebook u otro editor
 
----
+▶️ Cómo ejecutar los scripts
+Cloná el repositorio:
 
-## ⚙️ Requisitos
-
-- Python 3.10 o superior
-- (Opcional) Visual Studio Code, Jupyter Notebook u otro editor
-
----
-
-## ▶️ Cómo ejecutar los scripts
-
-1. Cloná el repositorio:
-
-```bash
+bash
+Copiar
+Editar
 git clone https://github.com/brunorios21/algoritmos_y_programacion.git
 cd algoritmos_y_programacion
-````
+Ejecutá un archivo específico con:
 
-2. Ejecutá un archivo específico con:
-
-```bash
+bash
+Copiar
+Editar
 python nombre_del_archivo.py
-```
-
 Por ejemplo:
 
-```bash
+bash
+Copiar
+Editar
 python PROTOTIPO1.py
-``
----
+⚠️ Asegurate de tener los archivos .txt en la misma carpeta si el script los necesita.
 
-## ✍️ Ejemplo visual (opcional)
-
-<p align="center">
-  <img src="ruta/a/captura_de_ejecucion.png" alt="Ejemplo ejecución de código" width="600"/>
-</p>
-
+✍️ Ejemplo visual (opcional)
+<p align="center"> <img src="ruta/a/captura_de_ejecucion.png" alt="Ejemplo ejecución de código" width="600"/> </p>
 Podés agregar capturas o GIFs del programa funcionando en consola para mostrar los resultados.
 
----
+📚 Recursos útiles
+Python Tutor – Visualizador de código
 
-## 📚 Recursos útiles
+Documentación oficial de Python
 
-* [Python Tutor – Visualizador de código](https://pythontutor.com/)
-* [Documentación oficial de Python](https://docs.python.org/es/3/)
-* [Material UNPAZ – Algoritmos y Programación](https://virtual.unpaz.edu.ar) *(si aplica)*
+Material UNPAZ – Algoritmos y Programación (si aplica)
 
----
-
-## 📄 Licencia
-
+📄 Licencia
 Este proyecto está licenciado bajo los términos de la licencia MIT.
-Consultá el archivo [`LICENSE`](https://github.com/brunorios21/algoritmos_y_programacion/blob/main/LICENSE) para más información.
+Consultá el archivo LICENSE para más información.
 
----
-
-## 👤 Autor
-
-**Bruno Ríos**
+👤 Autor
+Bruno Ríos
 Estudiante de Gestión de las Tecnologías de la Información
 Universidad Nacional de José C. Paz – UNPAZ
-GitHub: [@brunorios21](https://github.com/brunorios21)
-
-```
-
----
+GitHub: @brunorios21
