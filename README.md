@@ -61,34 +61,6 @@ Es útil tanto para estudiantes que cursan la materia como para quienes buscan p
 ⚙️ Requisitos
 🐍 Python 3.10 o superior
 
-💻 (Opcional) Visual Studio Code, Jupyter Notebook u otro editor de tu preferencia
-
-▶️ Cómo ejecutar los scripts
-🔽 Cloná el repositorio:
-
-bash
-Copiar
-Editar
-git clone https://github.com/brunorios21/algoritmos_y_programacion.git
-cd algoritmos_y_programacion
-▶️ Ejecutá un archivo específico con:
-
-bash
-Copiar
-Editar
-python nombre_del_archivo.py
-🔸 Ejemplo:
-
-bash
-Copiar
-Editar
-python PROTOTIPO1.py
-⚠️ Asegurate de tener los archivos .txt en la misma carpeta si el script los requiere.
-
-✍️ Ejemplo visual (opcional)
-<p align="center"> <img src="ruta/a/captura_de_ejecucion.png" alt="Ejemplo ejecución de código" width="600"/> </p>
-Podés agregar capturas o GIFs del programa funcionando en consola para mostrar resultados reales.
-
 📚 Recursos útiles
 🔗 Python Tutor – Visualizador de código
 
@@ -105,9 +77,5 @@ Bruno Ríos
 Estudiante de Gestión de las Tecnologías de la Información
 Universidad Nacional de José C. Paz – UNPAZ
 GitHub: @brunorios21
-
-yaml
-Copiar
-Editar
 
 ---
