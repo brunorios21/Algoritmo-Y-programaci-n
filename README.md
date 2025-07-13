@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Descripción
+## Descripción
 
 Este repositorio reúne diferentes scripts en Python que abordan temas fundamentales de programación estructurada, incluyendo:
 
@@ -59,20 +59,16 @@ Es útil tanto para estudiantes que cursan la materia como para quienes buscan p
 │   └── 📄 películas.txt
 └── 📄 README.md
 ⚙️ Requisitos
-🐍 Python 3.10 o superior
+Python 3.10 o superior
+Documentación oficial de Python
 
-📚 Recursos útiles
-🔗 Python Tutor – Visualizador de código
+Material UNPAZ – Algoritmos y Programación
 
-📘 Documentación oficial de Python
-
-🎓 Material UNPAZ – Algoritmos y Programación
-
-📄 Licencia
+Licencia
 Este proyecto está licenciado bajo los términos de la licencia MIT.
 Consultá el archivo LICENSE para más información.
 
-👤 Autor
+Autor
 Bruno Ríos
 Estudiante de Gestión de las Tecnologías de la Información
 Universidad Nacional de José C. Paz – UNPAZ
