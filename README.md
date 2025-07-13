@@ -28,8 +28,6 @@ Este repositorio reúne diferentes scripts en Python que abordan temas fundament
 Es útil tanto para estudiantes que cursan la materia como para quienes buscan practicar de forma independiente.
 
 ---
-
-## 🗂️ Estructura del repositorio
 ## 🗂️ Estructura del repositorio
 
 ```plaintext
